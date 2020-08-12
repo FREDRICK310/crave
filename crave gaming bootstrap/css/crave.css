@@ -1,0 +1,103 @@
+.heading {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(15, 19, 86, 0.97)), to(rgba(197, 136, 90, 0.3))), url(../image/image-5.jpeg) center top;
+  background: linear-gradient(to right, rgba(15, 19, 86, 0.97), rgba(197, 136, 90, 0.3)), url(../image/image-5.jpeg) center top;
+  background-attachment: center;
+  width: 100vw;
+  height: 85vh;
+}
+
+.heading .section-one {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  color: white;
+}
+
+.heading .navbar-nav .nav-item {
+  padding-left: 15px;
+}
+
+.heading .button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.heading .button:hover {
+  background: #c5885a;
+  color: white;
+}
+
+main {
+  min-height: 100%;
+}
+
+main .notice {
+  margin-left: 55px;
+  margin-top: 70px;
+  width: 150px;
+  height: 36px;
+  background: #0f1356;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+main .topic {
+  padding: 35px 55px 0px 55px;
+  text-align: start;
+}
+
+main .service-row {
+  padding: 35px 55px 5px 55px;
+}
+
+main .service-row .card {
+  height: 350px;
+  width: 44vw;
+  border: none;
+}
+
+main .service-row .card-1 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(15, 19, 86, 0.5)), to(rgba(197, 136, 90, 0.1))), url(../image/image-9.jpg) center top;
+  background: linear-gradient(to right, rgba(15, 19, 86, 0.5), rgba(197, 136, 90, 0.1)), url(../image/image-9.jpg) center top;
+  background-attachment: cover;
+  color: white;
+  text-transform: uppercase;
+}
+
+main .service-row .card-1 h5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+main .service-row .card-1 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+main .service-row .card-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(15, 19, 86, 0.8)), to(rgba(197, 136, 90, 0.4))), url(../image/image-14.jpg) center top;
+  background: linear-gradient(to right, rgba(15, 19, 86, 0.8), rgba(197, 136, 90, 0.4)), url(../image/image-14.jpg) center top;
+  background-attachment: cover;
+  color: white;
+  text-transform: uppercase;
+}
+
+main .service-row .card-2 h5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+main .service-row .card-2 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+/*# sourceMappingURL=crave.css.map */
